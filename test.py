@@ -53,9 +53,6 @@ class DumbEnemy(Ship):
 		self.rect.topleft = pos
 		self.v_y = 1
 
-	def move(self, screen):
-		Ship.move(self, screen)
-
 class Player(Ship):
 	"""defines a player, which moves and shoots"""
 	def __init__(self, ship_img, bullet_img):
